@@ -1,0 +1,85 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: space-around;
+    width: 600px; /* Adjust the width as needed */
+  }
+  
+  .login {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px; /* Adjust the width as needed */
+    margin: 10px; /* Add margin for spacing */
+  }
+  
+/* Add this CSS code to your App.css file */
+input[type='text'],
+input[type='password'],
+.checkbox-label {
+  margin-bottom: 10px;
+  width: calc(100% - 20px); /* Adjust the width accounting for padding */
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+} */
+
+  
+/* In your CSS file or <style> tag */
+.b1 {
+  display: block;
+  width: 200px;
+  margin-bottom: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-left: 23px;
+}
+
+.login-btn {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.create-acc-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.b1:hover {
+  background-color: #5a5958;
+}
+
+  .checkbox-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-left: 1px;
+    padding: 5px;
+  }
+  .custom-checkbox {
+    /* Increase the size */
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    /* Other checkbox styles */
+  }

@@ -1,0 +1,151 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(135deg, #10adf0, #0a82c8); */
+    
+}
+/* Body styling */
+/* .body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #10adf0, #0a82c8); /* Gradient background */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+} */ 
+
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Use min-height to ensure container fills the viewport */
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg?w=1060&t=st=1715877023~exp=1715877623~hmac=1e7e09ae3ca3505173744b7e922e7b89697142cfa0a554dd6df23f836119849b');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 0; /* Ensure no margin is added by default */
+    overflow: hidden; /* Prevent content overflow */
+}
+
+.heading {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #5f54a7;
+    /* text-shadow: 2px 2px 4px rgba(0,0,0,0.5); */
+}
+
+/* Heading styling */
+
+/* Form container styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+/* Login form styling */
+.login {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Input and label styling */
+input[type='text'],
+input[type='password'] {
+    margin-bottom: 20px;
+    width: calc(100% - 40px);
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.input-field:focus {
+    border-color: #2196f3;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Button styling */
+.b1 {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.b1:hover {
+    background-color: #1769aa;
+}
+
+.create-acc-btn {
+    background-color: #4caf50;
+}
+
+.create-acc-btn:hover {
+    background-color: #388e3c;
+}
+
+/* Checkbox styling */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.custom-checkbox {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.checkbox-label {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Login status styling */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.status {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}

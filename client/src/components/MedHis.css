@@ -1,0 +1,28 @@
+/* MedHis.css */
+
+.med-his-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.patient-details {
+    margin-bottom: 20px;
+}
+
+.patient-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.patient-details p {
+    margin-bottom: 5px;
+}
+
+.patient-details strong {
+    font-weight: bold;
+}

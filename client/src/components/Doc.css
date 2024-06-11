@@ -1,0 +1,90 @@
+/* Pat.css */
+
+/* body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+   */
+   .container4 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .header4 {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-text4 {
+    /* Style for the header text */
+    flex: 1;
+  }
+  .box4{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  }
+  .sidebar4 {
+    background-color: #2c3e50;
+    color: #fff;
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
+  }
+  
+  .nav-button4 {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #34495e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .content4 {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .welcome-text4 {
+    /* Style for the welcome text */
+    font-size: 60px;
+  }
+  
+  /* Optional: Hover effect for buttons */
+  .nav-button4:hover {
+    background-color: #414951;
+  }
+  .bttnz1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: #fff;
+    width: 100px;
+    transition: background-color 0.3s ease; /* Adding transition for hover effect */
+    margin-top: 325px;
+  }
+  
+  /* Hover effect */
+  .bttnz1:hover {
+    background-color: #525354; /* Change background color on hover */
+  }

@@ -1,0 +1,64 @@
+/* ViewMedHis.css */
+
+.container12 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.left-column2,
+.right-column2,
+.previous-appointments {
+  flex: 1;
+  padding: 20px;
+}
+
+.heading2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.item2 {
+  margin-bottom: 10px;
+}
+
+.previous-appointments {
+  margin-top: 30px;
+}
+
+.previous-appointment {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.previous-appointment div {
+  margin-bottom: 10px;
+}
+
+.previous-appointment div:first-child {
+  font-weight: bold;
+}
+
+.previous-appointment div:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.previous-appointment div:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+/* Additional styling for patient details */
+
+.left-column2 {
+  border-right: 1px solid #ccc;
+  padding-right: 30px; /* Added padding for better spacing */
+}
+
+.right-column2 {
+  padding-left: 30px; /* Added padding for better spacing */
+}

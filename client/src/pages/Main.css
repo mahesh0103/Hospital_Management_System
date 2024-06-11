@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bttn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: #fff;
+    width: 100px;
+    transition: background-color 0.3s ease; /* Adding transition for hover effect */
+  }
+  
+  /* Hover effect */
+  .bttn:hover {
+    background-color: #525354; /* Change background color on hover */
+  }

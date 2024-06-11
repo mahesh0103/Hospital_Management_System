@@ -1,0 +1,67 @@
+/* components/Viewpats.css */
+
+.search1-container {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    
+  }
+  
+  .search1-input {
+    padding: 8px;
+    width: 10px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search1-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .search1-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search1-results {
+    margin: 50px;
+  }
+  
+  .patient1-item {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .patient1-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .medical1-profile-button {
+    padding: 6px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .medical1-profile-button:hover {
+    background-color: #218838;
+  }
+  
